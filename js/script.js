@@ -41,6 +41,6 @@ Object.keys(users).forEach(function(key) {
      console.log('name: ', user.name);
      console.log('last name: ', user.lastName);
      
-      console.log('role: ', user.otherData ? user.otherData.role : null); 
+      console.log('role: ', user.otherData ? user.otherData.role : undefined); 
   }
 });
